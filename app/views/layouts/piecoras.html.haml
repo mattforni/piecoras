@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+%html
+  %head
+    %title Piecoras!
+    = stylesheet_link_tag :all
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    #header
+      #nav-bar
+        #logo
+          = image_tag "logo.png"
+        #nav-content
+          #menu.nav-item Menu
+          #calendar.nav-item Calendar
+          #occasions.nav-item Occasions
+          #info.nav-item Info
+          #contact.nav-item Contact
+          #phone-num.nav-item= PIECORAS_PHONE_NUMBER  
+    #content-container
+      #content
+        = yield

@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eeefd9;
+}
+
+#header {
+  height: 125px;
+}
+
+#nav-bar {
+  width: 100%;
+  height: 80px;
+  margin-top: 25px;
+  background-color: #07396a;
+  border-top: 2px solid #0c253d;
+  border-bottom: 2px solid #0c253d;
+}
+
+
+#logo {
+  margin: -20px 0px 0px 25px;
+  float: left;
+}
+
+#nav-content {
+  padding-top: 25px;
+  margin-left: 200px;
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 5px;
+  background-color: #1aa749;
+  float: left;
+  margin-right: 50px;
+  min-width: 100px;
+  text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius:5px;
+}
+
+.nav-item#phone-num {
+  float: right;
+  margin-right: 25px;
+}
+
+#content-container {
+  border-top: 3px solid #babab1;
+  border-left: 3px solid #babab1;
+  border-right: 3px solid #babab1;
+  margin: 0px auto 25px auto; 
+  width: 80%;
+  min-height: 425px;
+  background-color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eeefd9));
+  background: -moz-linear-gradient(top,  #fff,  #eeefd9);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#eeefd9');
+}
+
+#content {
+  padding: 15px;
+}
