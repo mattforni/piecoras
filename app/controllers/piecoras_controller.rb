@@ -7,7 +7,7 @@ class PiecorasController < ApplicationController
   def menu
   end
 
-  def calendar
+  def events
   end
 
   def occasions

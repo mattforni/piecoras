@@ -1,7 +1,7 @@
 Piecoras::Application.routes.draw do
   match "/", :to => "piecoras#home"
   match "/menu", :to => "piecoras#menu"
-  match "/calendar", :to => "piecoras#calendar"
+  match "/events", :to => "piecoras#events"
   match "/occasions", :to => "piecoras#occasions"
   match "/info", :to => "piecoras#info"
   match "/contact", :to => "piecoras#contact"

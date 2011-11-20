@@ -12,51 +12,38 @@ body {
 }
 
 #nav-bar {
-  width: 100%;
-  height: 80px;
-  margin-top: 25px;
+  margin-left: 10px;
+  width: 140px;
+  min-height: 600px;
   background-color: #07396a;
-  border-top: 2px solid #0c253d;
-  border-bottom: 2px solid #0c253d;
+  background:-webkit-gradient(linear,left top,left bottom,from(#07396a),to(#eeefd9));
+  background:-moz-linear-gradient(top,#07396a,#eeefd9);
+  -pie-background:linear-gradient(top,#07396a,#eeefd9);
+  -moz-border-radius-bottomleft: 25px;
+  -moz-border-radius-bottomright: 25px;
+  -webkit-border-bottom-left-radius: 25px;
+  -webkit-border-bottom-right-radius: 25px;
 }
 
 
 #logo {
-  margin: -20px 0px 0px 25px;
+  margin: 15px 0px 0px 8px;
   float: left;
 }
 
 #nav-content {
-  padding-top: 25px;
-  margin-left: 200px;
+  margin-left: 13px;
   color: white;
   font-size: 16pt;
   font-weight: bold;
 }
 
-.nav-item {
-  padding: 5px;
-  background-color: #1aa749;
-  float: left;
-  margin-right: 50px;
-  min-width: 100px;
-  text-align: center;
-  -moz-border-radius: 5px;
-  -webkit-border-radius:5px;
-}
-
-.nav-item#phone-num {
-  float: right;
-  margin-right: 25px;
-}
-
 #content-container {
   border-top: 3px solid #babab1;
   border-left: 3px solid #babab1;
-  border-right: 3px solid #babab1;
-  margin: 0px auto 25px auto; 
-  width: 80%;
-  min-height: 425px;
+  border-right: 3px solid #babab1; 
+  width: 100%;
+  min-height: 600px;
   background-color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eeefd9));
   background: -moz-linear-gradient(top,  #fff,  #eeefd9);
@@ -65,4 +52,46 @@ body {
 
 #content {
   padding: 15px;
+}
+
+.piecorasbutton {
+  color:#fff;
+  background:#8fc857;
+  background:-webkit-gradient(linear,left top,left bottom,from(#8fc857),to(#1aa749));
+  background:-moz-linear-gradient(top,#8fc857,#1aa749);
+  -pie-background:linear-gradient(top,#8fc857,#1aa749);
+  text-shadow:0 -1px 0px rgba(0,0,0,0.4);
+  border:1px solid #561;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 16pt !important;
+  text-align: center;
+  padding: 3px 6px 6px;
+  margin-top: 3px;
+  min-width: 100px;
+}
+
+.piecorasbutton.orange {
+  color:#fff;
+  font-size: 12pt !important;
+  background:#d1570d;
+  background:-webkit-gradient(linear,left top,left bottom,from(#fddc5c),to(#d1570d));
+  background:-moz-linear-gradient(top,#fddc5c,#d1570d);
+  -pie-background:linear-gradient(top,#fddc5c,#d1570d);
+}
+
+table.layout {
+  width: 99%;
+}
+
+table.layout td.nav-bar {
+  width: 100px;
 }
