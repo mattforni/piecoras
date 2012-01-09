@@ -7,91 +7,76 @@ body {
   background-color: #eeefd9;
 }
 
-#header {
-  height: 125px;
-}
-
-#nav-bar {
-  margin-left: 10px;
-  width: 140px;
-  min-height: 600px;
-  background-color: #07396a;
-  background:-webkit-gradient(linear,left top,left bottom,from(#07396a),to(#eeefd9));
-  background:-moz-linear-gradient(top,#07396a,#eeefd9);
-  -pie-background:linear-gradient(top,#07396a,#eeefd9);
-  -moz-border-radius-bottomleft: 25px;
-  -moz-border-radius-bottomright: 25px;
-  -webkit-border-bottom-left-radius: 25px;
-  -webkit-border-bottom-right-radius: 25px;
-}
-
-
-#logo {
-  margin: 15px 0px 0px 8px;
+.fl {
   float: left;
+  clear: both;
 }
 
-#nav-content {
-  margin-left: 13px;
-  color: white;
-  font-size: 16pt;
-  font-weight: bold;
-}
-
-#content-container {
-  border-top: 3px solid #babab1;
-  border-left: 3px solid #babab1;
-  border-right: 3px solid #babab1; 
-  width: 100%;
-  min-height: 600px;
-  background-color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eeefd9));
-  background: -moz-linear-gradient(top,  #fff,  #eeefd9);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#eeefd9');
-}
-
-#content {
-  padding: 15px;
-}
-
-.piecorasbutton {
-  color:#fff;
+#header {
+  min-height: 140px;
   background:#8fc857;
   background:-webkit-gradient(linear,left top,left bottom,from(#8fc857),to(#1aa749));
   background:-moz-linear-gradient(top,#8fc857,#1aa749);
   -pie-background:linear-gradient(top,#8fc857,#1aa749);
-  text-shadow:0 -1px 0px rgba(0,0,0,0.4);
-  border:1px solid #561;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+  border-bottom: 2px solid #8fc857;
+}
+
+#logo {
+  margin: 10px 0px 0px 15px;
+  float: left;
+}
+
+#nav-content {
+  color: white;
+  font-size: 14pt !important;
+  font-weight: bold;
+  padding: 90px 0px 0px 15px;    
+}
+
+#nav-content>a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  text-shadow: 0 -1px 3px rgba(0,0,0,0.5);
+}
+
+#nav-content>a:hover {
+  text-shadow: 0 -1px 15px rgba(255,255,153,0.75);
+}
+
+.title-menu {
   display: inline-block;
   overflow: hidden;
   vertical-align: middle;
-  font-size: 16pt !important;
   text-align: center;
   padding: 3px 6px 6px;
-  margin-top: 3px;
-  min-width: 100px;
+  min-width: 100px;  
 }
 
-.piecorasbutton.orange {
-  color:#fff;
-  font-size: 12pt !important;
-  background:#d1570d;
-  background:-webkit-gradient(linear,left top,left bottom,from(#fddc5c),to(#d1570d));
-  background:-moz-linear-gradient(top,#fddc5c,#d1570d);
-  -pie-background:linear-gradient(top,#fddc5c,#d1570d);
+#phone-number {
+  float: right;
+  text-shadow: 0 -1px 3px rgba(0,0,0,0.5);  
+  margin-right: 15px;
+  padding-top: 5px;
 }
 
-table.layout {
-  width: 99%;
+#content {
+  margin: 25px 175px 25px 175px;
 }
 
-table.layout td.nav-bar {
-  width: 100px;
+.piecora-title {
+  color: #fff;
+  text-shadow:1px -1px 5px rgba(0,0,0,0.4);
+  width: 100%;
+  font-weight: bold;
+  padding: 15px;
+  background:#f90;
+  background:-webkit-gradient(linear,left top,left bottom,from(#f90),to(#ffb84d));
+  background:-moz-linear-gradient(top,#f90, #ffb84d);  
+  margin: 5px 0px;
+  border: 2px solid #f90;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  cursor: default;
 }

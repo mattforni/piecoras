@@ -1,0 +1,25 @@
+display:
+  desc : Dressings - Ranch, Blue Cheese, French, 1000 Island, Italian, 
+         Caesar or Honey Mustard 
+  extra: |
+    Served on the side
+
+items:
+  - name : House Salad
+    desc : Fresh leaf lettuce, mushrooms, green peppers, tomatoes, olives and
+           mozzarella cheese
+    price : "4.95"
+  - name : Piecora's Special
+    desc : Fresh leaf lettuce, mushrooms, green peppers, olives, tomatoes, 
+           Canadian bacon, salami, artichoke hearts and mozzarella cheese
+    price : "8.50"
+    half_price : "6.75"  
+  - name : Caesar Salad
+    desc : Romaine lettuce tossed with parmesan cheese, homemade croutons 
+           and our Caesar dressing
+    price : "7.95"
+    half_price : "6.70" 
+  - name : Greek Salad
+    desc : Fresh leaf lettuce, red onions, tomatoes, cucumbers, feta, Greek 
+           olives and pepperocinis
+    price : "8.50"

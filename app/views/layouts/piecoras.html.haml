@@ -2,29 +2,19 @@
 %html
   %head
     %title Piecoras!
-    = stylesheet_link_tag :all
+    = stylesheet_link_tag "piecoras"
+    = stylesheet_if_exists params[:action]
     = javascript_include_tag :defaults
     = csrf_meta_tag
   %body
-    %table.layout
-      %tr{:valign => "top"}
-        %td.nav-bar
-          #nav-bar
-            #logo
-              = image_tag "logo.png"
-            #nav-content
-              #phone-num.piecorasbutton.orange= PIECORAS_PHONE_NUMBER
-              %a{:href => "/menu"}
-                #menu.piecorasbutton Menu
-              %a{:href => "/events"}
-                #events.piecorasbutton Events
-              %a{:href => "/occasions"}  
-                #occasions.piecorasbutton Occasions
-              %a{:href => "/info"}
-                #info.piecorasbutton Info
-              %a{:href => "/contact"}
-                #contact.piecorasbutton Contact
-        %td
-          #content-container
-            #content
-              = yield
+    #header
+      #logo
+        = image_tag "logo.png"
+      #nav-content
+        - for action in PiecorasController::EXPOSED_ACTIONS
+          %a{:href => "/#{action}", 
+              :class => params[:action] == action ? "current" : ""}
+            .title-menu{:id => action}= action.capitalize
+        #phone-number= PIECORAS_PHONE_NUMBER
+    #content
+      = yield

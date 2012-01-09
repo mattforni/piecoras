@@ -1,0 +1,14 @@
+display:
+  desc : Pizza turnovers stuffed with ricotta cheese, mozzarella cheese and
+         spices. Served with a side of marinara sauce
+
+prices:
+  topping : "1.75"
+
+items:
+  - name : Plain
+    price : "7.25"
+  
+  - name : Veggie
+    desc : Stuffed with spinach, onions, mushrooms, and fried peppers
+    price : "8.95"  

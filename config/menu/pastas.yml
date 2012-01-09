@@ -1,0 +1,40 @@
+display:
+  desc : Served with garlic bread and green salad
+  extra: |
+    Upgrade to ½ Caesar or ½ Special add 2.50
+
+items:
+  - name : Meat Lasagna
+    price : "8.95"
+  - name : Veggie Lasagna
+    price : "8.95"
+  - name : Spaghetti
+    extra: |
+      with meatballs add $1.20
+    price : "7.95"
+  - name : Manicotti
+    desc : Pasta wrapped around a filling of ricotta cheese and spices, oven
+           baked with marinara and mozzarella cheese
+    price : "8.75"
+  - name : Stuffed Shells
+    desc : Pasta Shells filled with spiced Ricotta cheese, oven baked with 
+           marinara and mozzarella
+    price : "8.75"
+  - name : Cannelloni
+    desc : Pasta wrapped around a filling of Italian sausage and spices, oven
+           baked in marinara and mozzarella cheese
+    price : "8.75"
+  - name : Eggplant Parmesan
+    desc : Breaded eggplant topped with Parmesan, oven baked with marinara and
+           mozzarella
+    price : "8.50"
+  - name : Combination Pasta
+    desc : Stuffed Shells, Eggplant and Cannelloni oven baked in marinara and
+           mozzarella cheese
+    price : "8.95"
+  - name : Bambino Plate
+    desc : Buttered Spaghetti and bread
+    extra: |
+      no salad included
+    price : "5.95"   
+    

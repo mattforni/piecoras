@@ -1,0 +1,14 @@
+items:
+  - name : Hot Meatball
+    desc : Italian bread stuffed with mozzarella, onions, red sauce, and our
+           homemade meatballs, then baked in the oven
+    price : "7.95"
+  - name : Eggplant Hero
+    desc : Breaded slices of eggplant baked with red sauce and mozzarella
+           inside Italian Bread
+    price : "7.95"
+  - name : Italian Sub
+    desc : Tomatoes, green peppers, onions, salami, Canadian bacon, coppacola,
+           mozzarella and Italian dressing, baked and served inside Italian
+           bread
+    price : "7.95"

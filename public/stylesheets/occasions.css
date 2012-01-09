@@ -1,0 +1,15 @@
+.occasion-title {
+  color: #fff;
+  text-shadow:1px -1px 5px rgba(0,0,0,0.4);
+  width: 100%;
+  font-weight: bold;
+  padding: 15px;
+  background:#f90;
+  background:-webkit-gradient(linear,left top,left bottom,from(#f90),to(#ffb84d));
+  background:-moz-linear-gradient(top,#f90, #ffb84d);  
+  margin-bottom: 15px;
+  border: 2px solid #f90;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;  
+}

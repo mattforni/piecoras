@@ -1,0 +1,27 @@
+.menu-item>.title {
+  clear: both;
+}
+
+.menu-item>.title>.name {
+  font-weight: bold;
+  float: left;
+}
+
+.menu-item>.title>.extra-info {
+  font-weight: normal;
+  margin-left: 5px;
+  font-size: 0.8em;
+  font-style: italic;
+  float: left;
+}
+
+.menu-item>.title>.price {
+  float: right;
+  clear: right;
+}
+
+.menu-item>.description {
+  font-size: 0.9em;
+  float: left;
+  clear: both;
+}

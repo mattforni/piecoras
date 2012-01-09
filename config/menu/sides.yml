@@ -1,0 +1,17 @@
+items:
+  - name : Garlic Bread
+    price : "3.75"
+  - name : Garlic Cheese Bread
+    price : "4.55"
+  - name : Extra Dressing
+    price : "0.75"
+  - name : Kiddie Plate
+    desc : Olives, pineapple, bread and mozzarella
+    price : "3.50"
+  - name : Three Large Meatballs
+    desc : Served hot with marinara sauce
+    price : "4.95"
+  - name : Hot Wings
+    desc : 10 pieces of oven-baked spicy Wings with a side of garlic bread and
+           choice of Ranch or Bleu Cheese dipping sauce
+    price : "6.95"

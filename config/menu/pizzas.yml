@@ -1,0 +1,97 @@
+display: 
+  description : Hand-tossed dough, mozzarella cheese and sauce
+  extra: |
+    Extra thin crust upon request
+    Box charge of 0.75 for whole and half pies
+prices:
+  pies:
+    - whole : "16.95"
+    - half  : "10.25"
+    - slice : "2.50"
+  toppings:
+    - whole : "2.35"
+    - half  : "1.75"   
+    - slice : "0.65"
+
+toppings: |
+  anchovies
+  artichokes
+  basil
+  blue cheese
+  broccoli
+  canadian bacon
+  chicken
+  coppacola
+  goat cheese
+  extra cheese    
+  feta
+  chopped garlic
+  roasted garlic
+  green pepper
+  jalapeno
+  meatballs
+  mushrooms    
+  olives
+  onions
+  red onion
+  pesto
+  pineapple
+  pepperoni
+  ricotta 
+  fried peppers
+  roasted peppers
+  salami
+  sausage
+  eggplant
+  spinach
+  sun dried tomato   
+  fresh tomato
+  zucchini
+  
+combinations:
+  - name : "The Veggie"
+    desc : "Mushrooms, onions, olives, green peppers, tomatoes and fresh garlic
+            is optional"
+    whole_price : "22.95"
+    half_price : "14.50"
+  - name : "The Combo"
+    desc : "Salami, pepperoni, Italian sausage,Canadian bacon, mushrooms, 
+            onions, olives, green peppers and tomatoes"
+    whole_price : "25.50"
+    half_price : "15.25"
+  - name : "Sweet Italian"
+    desc : "Sweet fried peppers, Italian sausage and fresh garlic"
+    whole_price : "21.95"
+    half_price : "13.25"
+  - name : "Queens"
+    desc : "Italian sausage, pepperoni and homemade meatballs"
+    whole_price : "21.95"
+    half_price : "13.25"     
+  - name : "Manhattan"
+    desc : "Artichoke hearts, black olives, mushrooms, and coppacola (a hot 
+            spiced Italian ham)"
+    whole_price : "23.50"
+    half_price : "14.50"
+  - name : "Brooklyn"
+    desc : "Pepperoni, fresh mushrooms and black olives"
+    whole_price : "21.95"
+    half_price : "13.25"
+  - name : "Jeffro's Veggie"
+    desc : "Sun dried tomatoes, zucchini, broccoli, red onions,  spinach.  
+            Olive oil or tomato sauce base"
+    whole_price : "23.75"
+    half_price : "14.50"
+  - name : "Gerry's Own"
+    desc : "Italian sausage, feta cheese and roasted peppers"
+    whole_price : "22.25"
+    half_price : "13.50"       
+  - name : "The Greek"
+    desc : "Feta cheese, Kalamata olives, onions and tomatoes. Olive oil or 
+            tomato sauce base"
+    whole_price : "22.95"
+    half_price : "14.55"
+  - name : "Westcoaster"
+    desc : "Thin slices of Canadian Bacon and Pineapple over mozzarella 
+            cheese and tomato sauce"
+    whole_price : "20.95"
+    half_price : "13.25"

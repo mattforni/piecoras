@@ -1,0 +1,29 @@
+items:
+  - name : Fountain Sodas
+    desc : Classic Coke, Diet Coke, Sprite, Orange, and Barq’s Root Beer
+    extra: |
+      pitcher for $5.75
+    price : "1.95"
+  - name : Thomas Kemper Root Beer
+    price : "3.00"
+  - name : Martinelli's Apple Juice
+    price : "1.95"
+  - name : Milk
+    price : "2.00"
+  - name : Crystal Geyser Water
+    price : "2.00"
+  - name : Ice Team
+    price : "2.25"
+  - name : Coffee
+    price : "2.00"
+  - name : Hot Tea
+    extras: |
+      TAZO teas
+    desc : Earl Grey, Awake, Passion, Zen, Green, Calm, Spice, Chai and Refresh
+    price : "2.25"
+  - name : Nantucket Nectar
+    desc : Half & Half, Orange Mango, Cran-Ras-Grape, Lemonade and Pine-Orange-Guava
+    price : "2.55"
+  - name : Reed's Ginger Ale
+    desc : All natural ginger brew
+    price : "2.25"

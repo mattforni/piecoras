@@ -1,0 +1,10 @@
+- for type in @types
+  .piecora-title.fl
+    = type.capitalize
+  - locals = {:type => type, :content => @content[type]}
+  - begin
+    = render :partial => "piecoras/menu/#{type}", :locals => locals
+  - rescue
+    = render :partial => "piecoras/menu/generic", :locals => locals
+%br
+%br

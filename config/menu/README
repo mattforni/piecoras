@@ -1,0 +1,7 @@
+these files are meant to represent the piecoras menu in the absence of a DB.
+since the menu will not be updated very frequently and menu / orders would 
+constitute the majority of the DB, it seems silly to add a DB dependency.
+
+*PLEASE NOTE*
+it is important to note that all fields no field may contain the ':' character
+unless wrapped in quotation marks as this causes yaml parsing errors

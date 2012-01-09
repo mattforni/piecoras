@@ -1,0 +1,12 @@
+- for item in (content["items"] || [])
+  .menu-item
+    .title
+      .name
+        = item["name"]
+      - if item["extra"]
+        .extra-info
+          = "(#{(item['extra'].join(' ') rescue item['extra']).strip})"
+      .price
+        = "$#{item['price']}"
+    .description
+      = item["desc"] if item["desc"]
