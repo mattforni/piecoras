@@ -1,32 +1,31 @@
-require "menu"
-
+require "yaml_handler"
+include YamlHandler
 class PiecorasController < ApplicationController
   layout 'piecoras'
-  EXPOSED_ACTIONS = ["menu", "delivery", "events", "occasions", "about", "gallery"]
+  EXPOSED_ACTIONS = ["menu", "events", "occasions", "about", "gallery"]
   
   def home
   end
 
   def menu
-    @types = Menu::types
-    @content = {}
-    for type in @types
-      @content[type] = Menu::load_menu_object(type)
-    end
-  end
-
-  def delivery
+    require "menu"
+    @menu_types = Menu.types.reduce([]) {|types, name|
+      types << MenuType.new(name)}.sort_by(&:priority)
   end
 
   def events
-    @types = EventType.all
+    @types = Event.types
   end
 
   def occasions
-    @types = OccasionType.all
+    @types = Occasion.types
   end
 
   def about
+    about = YamlHandler::load_file(File.join(YAML_ROOT, "about.yml"))
+    @hours = about["hours"]
+    @location = about["location"]
+    @contact = about["contact"]
   end
 
   def gallery

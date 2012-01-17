@@ -1,7 +1,46 @@
-#location-description {
-  float: left;
+#delivery-info {
+  clear: both;
+  min-height: 275px;
 }
 
-#statue-of-liberty {
-  float: right:
+#delivery-info>ul {
+  float: left;
+  margin-left: 25px;
+  width: 60%;
+  min-width: 400px;
+  max-width: 600px;
+}
+
+#delivery-info>#delivery-area {
+  float: right;
+}
+
+td.day-cell {
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+td.time-cell {
+  padding: 5px 15px; 
+}
+
+#location {
+  clear: both;
+  min-height: 400px;
+}
+
+#location>.description {
+  margin-left: 10px;
+  float: left;
+  width: 75%;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+#location>#statue-of-liberty {
+  float: right;  
+}
+
+#contact-us {
+  margin-left: 10px;
 }

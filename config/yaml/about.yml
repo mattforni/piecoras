@@ -1,0 +1,35 @@
+hours:
+  - day: Sunday
+    open: "12:00"
+    close: "22:00"
+  - day: Monday
+    open: "11:30"
+    close: "23:00"
+  - day: Tuesday
+    open: "11:30"
+    close: "23:00"
+  - day: Wednesday
+    open: "11:30"
+    close: "23:00"
+  - day: Thursday
+    open: "11:30"
+    close: "23:00"
+  - day: Friday
+    open: "11:30"
+    close: "00:00"
+  - day: Saturday
+    open: "12:00"
+    close: "00:00"
+
+location:
+  desc: >
+    We are located at 1401 East Madison Street at the five corner intersection 
+    of 14th Ave, East Madison and East Pike Streets. And if you really can't 
+    read a map, then just drive around Capitol Hill until you find this lovely
+    lady.
+    
+contact:
+  desc: >
+    We want to hear from you! Whether it is praise, suggestion for a menu item,
+    or to book the party room - we value your input and are at your service. 
+    The Piecora family wants you to be beyond satisfied.

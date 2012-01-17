@@ -1,27 +1,43 @@
 #about-content
+  #delivery-info
+    .piecora-title
+      Delivery
+    %ul
+      %li
+        We accept MC/Visa/Discover/Amex and cash. 
+      %li
+        Sorry, no personal checks! 
+      %li
+        There is a $10 minimum purchase required for FREE delivery.
+      %li
+        Our delivery area covers the central area of Seattle from I-90 
+        on the south end to SR 520 on the north end, east of I-5 to 
+        Lake Washington.
+    #delivery-area
+      = image_tag "delivery_area.png"
   #hours
     .piecora-title
       Hours
-    Monday-Thursday, 11:30AM-11:00PM
-    %br
-    Friday 11:30AM-Midnight
-    %br
-    Saturday 12:00PM-Midnight
-    %br
-    Sunday 12:00PM to 10PM
+    %table#hour-table
+      - for hour in @hours
+        %tr
+          %td.day-cell
+            = hour['day']
+          %td.time-cell
+            = hour['open']
+          %td.to-cell
+            to
+          %td.time-cell
+            = hour['close']
   #location
     .piecora-title
       Location
-    #location-description
-      We are located at 1401 East Madison Street at the five corner 
-      intersection of 14th Ave, East Madison and East Pike Streets. 
-      And if you really can't read a map, then just drive around 
-      Capitol Hill until you find this lovely lady. 
+    .description
+      = @location['desc'] 
     #statue-of-liberty
-      = image_tag "pizza-tossin-statue-of-liberty.png"
+      = image_tag "pizza-tossin-statue-of-liberty.png"  
   #contact
     .piecora-title
       Contact Us
-    We want to hear from you! Whether it is praise, suggestion for a menu item,
-    or to book the party room - we value your input and are at your service. 
-    The Piecora family wants you to be beyond satisfied.      
+    #contact-us
+      = @contact['desc']

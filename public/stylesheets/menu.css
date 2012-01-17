@@ -1,4 +1,10 @@
+.menu-type>#description {
+  clear: both;
+  margin: 0px 0px 10px 10px;
+}
+
 .menu-item>.title {
+  margin-left: 20px;
   clear: both;
 }
 
@@ -16,12 +22,14 @@
 }
 
 .menu-item>.title>.price {
+  font-weight: bold;
   float: right;
   clear: right;
 }
 
 .menu-item>.description {
   font-size: 0.9em;
+  margin-left: 25px;
   float: left;
   clear: both;
 }

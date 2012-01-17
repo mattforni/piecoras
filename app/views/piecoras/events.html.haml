@@ -1,4 +1,6 @@
 - for type in @types
-  .piecora-title
-    = type.display
-  
+  .event{:id => "event-type-#{type}"}
+    .piecora-title
+      = type
+    .description
+      = "We'll be adding this soon so you can join us for some #{type}."      

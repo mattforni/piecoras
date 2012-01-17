@@ -1,6 +1,8 @@
+priority: 2
 display:
-  desc : Pizza turnovers stuffed with ricotta cheese, mozzarella cheese and
-         spices. Served with a side of marinara sauce
+  desc: <
+    Pizza turnovers stuffed with ricotta cheese, mozzarella cheese and
+    spices. Served with a side of marinara sauce
 
 prices:
   topping : "1.75"

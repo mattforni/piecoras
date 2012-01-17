@@ -1,5 +1,7 @@
+priority: 1
 display: 
-  description : Hand-tossed dough, mozzarella cheese and sauce
+  desc: <
+    Hand-tossed dough, mozzarella cheese and sauce
   extra: |
     Extra thin crust upon request
     Box charge of 0.75 for whole and half pies

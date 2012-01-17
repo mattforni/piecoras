@@ -1,3 +1,6 @@
 - for type in @types
-  .piecora-title
-    = type.display
+  .occasion{:id => "occasion-type-#{type}"}
+    .piecora-title
+      = type
+    .description
+      = "We'll be adding this soon so we can meet your #{type.downcase} needs."

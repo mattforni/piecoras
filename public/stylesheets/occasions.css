@@ -1,3 +1,7 @@
+.occasion>.description {
+  margin-left: 10px;
+}
+
 .occasion-title {
   color: #fff;
   text-shadow:1px -1px 5px rgba(0,0,0,0.4);

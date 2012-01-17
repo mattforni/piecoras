@@ -1,9 +1,19 @@
-- for type in @types
+#devliver-info
+  .note
+    Call 
+    %span{:style => "font-weight: bold;"}
+      (206) 322-9411 
+    for delivery. For details on FREE delivery see our 
+    %a.detail-link{:href => "/about#delivery_info"}
+      = "about".strip
+    page.
+
+- for menu_type in @menu_types
   .piecora-title.fl
-    = type.capitalize
-  - locals = {:type => type, :content => @content[type]}
+    = menu_type.name.capitalize
+  - locals = {:menu_type => menu_type}
   - begin
-    = render :partial => "piecoras/menu/#{type}", :locals => locals
+    = render :partial => "piecoras/menu/#{menu_type.name}", :locals => locals
   - rescue
     = render :partial => "piecoras/menu/generic", :locals => locals
 %br

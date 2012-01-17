@@ -12,6 +12,15 @@ body {
   clear: both;
 }
 
+a.detail-link {
+  color: #f90;
+  text-decoration: none;
+}
+
+a.detail-link:hover {
+  text-decoration: underline;
+}
+
 #header {
   min-height: 140px;
   background:#8fc857;
@@ -44,6 +53,14 @@ body {
   text-shadow: 0 -1px 15px rgba(255,255,153,0.75);
 }
 
+#home-content {
+  margin-left: 10px;
+}
+
+#home-content li {
+  margin-left: 20px;
+}
+
 .title-menu {
   display: inline-block;
   overflow: hidden;
@@ -61,7 +78,7 @@ body {
 }
 
 #content {
-  margin: 25px 175px 25px 175px;
+  margin: 25px 100px 25px 100px;
 }
 
 .piecora-title {

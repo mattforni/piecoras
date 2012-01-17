@@ -9,12 +9,12 @@
   %body
     #header
       #logo
-        = image_tag "logo.png"
+        %a{:href => "/"}
+          = image_tag "logo.png"
       #nav-content
         - for action in PiecorasController::EXPOSED_ACTIONS
           %a{:href => "/#{action}", 
               :class => params[:action] == action ? "current" : ""}
             .title-menu{:id => action}= action.capitalize
-        #phone-number= PIECORAS_PHONE_NUMBER
     #content
       = yield

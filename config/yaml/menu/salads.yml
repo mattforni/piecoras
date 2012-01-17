@@ -1,6 +1,8 @@
+priority: 3
 display:
-  desc : Dressings - Ranch, Blue Cheese, French, 1000 Island, Italian, 
-         Caesar or Honey Mustard 
+  desc: <
+    Dressings - Ranch, Blue Cheese, French, 1000 Island, Italian, 
+    Caesar or Honey Mustard 
   extra: |
     Served on the side
 
